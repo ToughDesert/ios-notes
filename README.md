@@ -25,10 +25,6 @@ iOS Notes is a lightweight, browser-based notes application that brings the eleg
 ### ✨ Key Highlights
 
 - 🎨 **iOS-Inspired Design** - Beautiful, clean interface inspired by Apple's Notes app
-- 🌓 **Dark/Light Themes** - Automatic theme detection with manual toggle
-- 🌍 **Multilingual** - English and Russian language support
-- 📱 **Fully Responsive** - Optimized for all screen sizes
-- 💾 **Local Storage** - All data stored locally in your browser
 - ⚡ **Zero Dependencies** - No build process, no npm, just open and use
 
 ## ✨ Features
@@ -321,6 +317,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [⬆ Back to Top](#-ios-notes)
 
 </div>
+
 
 
 
